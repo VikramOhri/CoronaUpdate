@@ -1,2 +1,2 @@
 # Corona-Update
-API used : https://github.com/NovelCOVID/API
+API used : https://covid19.mathdro.id/api
