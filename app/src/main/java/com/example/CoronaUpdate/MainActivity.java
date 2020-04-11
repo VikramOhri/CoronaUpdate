@@ -80,10 +80,12 @@ public class MainActivity extends AppCompatActivity {
                 textView.setText(things);
                 if(countryName!=null){
                     TextView status=findViewById(R.id.Status);
+
                     countryName=countryName.toLowerCase();
                     String c=countryName.substring(0,1);
                     c=c.toUpperCase() + countryName.substring(1);
                     status.setText(c + " Status");
+
                 }
                 else {
                     TextView status=findViewById(R.id.Status);
